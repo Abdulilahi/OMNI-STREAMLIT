@@ -36,6 +36,10 @@
 # PyPDF2
 
 # Core LangChain ecosystem
+langchain>=1.0.0,<2.0.0
+langchain-anthropic>=1.0.0,<2.0.0
+langchain-text-splitters>=0.0.10
+
 langchain
 langchain_community
 langchain_anthropic
