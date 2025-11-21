@@ -1,0 +1,99 @@
+# langchain
+# langchain_community
+# python-dotenv
+# ipykernel
+# langchain_anthropic
+# langchain_ollama
+# langchain_groq
+# ddgs
+# pypdf
+# sentence-transformers
+# langchain_huggingface
+# bs4
+# tqdm
+# requests
+# pinecone
+# langchain_pinecone
+# pinecone-client
+# chromadb
+# duckduckgo-search
+# langchain-tavily
+# langchain_tavily
+# jq
+# faiss-cpu
+# tavily-python
+# streamlit
+# tokenizers==0.21.4
+# transformers>=4.27.0,<5.0.0
+# diffusers>=0.34.0,<0.35.0
+# chromadb>=1.0.9
+# reportlab
+# cassio
+# datasets
+# langchain
+# openai
+# tiktoken
+# PyPDF2
+
+# Core LangChain ecosystem
+langchain
+langchain_community
+langchain_anthropic
+langchain_ollama
+langchain_groq
+langchain_huggingface
+langchain_pinecone
+langchain_tavily
+
+# Supporting AI & NLP tools
+sentence-transformers
+# transformers>=4.27.0
+transformers==4.41.0
+# tokenizers==0.21.4
+diffusers>=0.34.0,<0.35.0
+datasets
+tiktoken
+
+# Vector stores & databases
+pinecone-client
+chromadb>=1.0.9
+faiss-cpu
+
+# Search / web tools
+duckduckgo-search
+ddgs
+tavily-python
+bs4
+requests
+jq
+tqdm
+
+# File & PDF handling
+PyPDF2
+pypdf
+reportlab
+
+# Streamlit for UI
+streamlit
+
+# Env management
+python-dotenv
+ipykernel
+
+# Misc
+cassio
+openai
+torch 
+# torchvision 
+# torchaudio
+# accelerate 
+# safetensors
+langchain-groq 
+langchain 
+langchain-community 
+langchain-text-splitters 
+langchain-tavily 
+beautifulsoup4 
+requests 
+python-dotenv 
+faiss-cpu
