@@ -1,15 +1,16 @@
+--upgrade pip
 # Core LangChain
 langchain>=1.0.0,<2.0.0
-langchain_community>=0.0.38
+langchain_community>=0.0.38,<1.0.0
 langchain-anthropic>=1.0.0,<2.0.0
-langchain-text-splitters>=0.0.10
 langchain-ollama
 langchain-groq
 langchain-huggingface
 langchain-pinecone
 langchain-tavily
+langchain-text-splitters>=0.0.10
 
-# AI & NLP
+# AI & NLP tools
 sentence-transformers
 transformers==4.41.0
 diffusers>=0.34.0,<0.35.0
@@ -21,7 +22,7 @@ pinecone-client
 chromadb>=1.0.9
 faiss-cpu
 
-# Search/Web
+# Search / web
 duckduckgo-search
 ddgs
 tavily-python
@@ -30,12 +31,12 @@ requests
 jq
 tqdm
 
-# PDF/File handling
+# File / PDF
 PyPDF2
 pypdf
 reportlab
 
-# Streamlit
+# UI
 streamlit
 
 # Env
