@@ -1,20 +1,43 @@
-# --------------------------
-# LangChain (latest stable)
-# --------------------------
-#langchain==0.2.11
-#langchain-core==0.2.15
-#langchain-community==0.2.10
-#langchain-text-splitters==0.2.2
-#langchain==0.1.20
-langchain-core
-#langchain-community==0.0.37
-langchain
-langchain-community
+# langchain
+# langchain_community
+# python-dotenv
+# ipykernel
+# langchain_anthropic
+# langchain_ollama
+# langchain_groq
+# ddgs
+# pypdf
+# sentence-transformers
+# langchain_huggingface
+# bs4
+# tqdm
+# requests
+# pinecone
+# langchain_pinecone
+# pinecone-client
+# chromadb
+# duckduckgo-search
+# langchain-tavily
+# langchain_tavily
+# jq
+# faiss-cpu
+# tavily-python
+# streamlit
+# tokenizers==0.21.4
+# transformers>=4.27.0,<5.0.0
+# diffusers>=0.34.0,<0.35.0
+# chromadb>=1.0.9
+# reportlab
+# cassio
+# datasets
+# langchain
+# openai
+# tiktoken
+# PyPDF2
 
-#langchain==0.0.350
-#langchain-core==0.1.0
-#langchain-community
-langchain-text-splitters
+# Core LangChain ecosystem
+langchain
+langchain_community
 langchain_anthropic
 langchain_ollama
 langchain_groq
@@ -22,34 +45,21 @@ langchain_huggingface
 langchain_pinecone
 langchain_tavily
 
-# --------------------------
-# Integrations
-# --------------------------
-langchain-groq
-langchain-ollama
-langchain-anthropic
-langchain-huggingface
-langchain-pinecone
-langchain-tavily
-
-# --------------------------
-# LLM + Embeddings
-# --------------------------
+# Supporting AI & NLP tools
 sentence-transformers
-transformers==4.36.2     # <-- stable for Python 3.10, avoids tokenizers error
+# transformers>=4.27.0
+transformers==4.41.0
+# tokenizers==0.21.4
+diffusers>=0.34.0,<0.35.0
+datasets
 tiktoken
 
-# --------------------------
-# Vector stores
-# --------------------------
+# Vector stores & databases
 pinecone-client
-chromadb==0.4.24
+chromadb>=1.0.9
 faiss-cpu
 
-# --------------------------
-# Data tools
-# --------------------------
-datasets
+# Search / web tools
 duckduckgo-search
 ddgs
 tavily-python
@@ -58,22 +68,32 @@ requests
 jq
 tqdm
 
-# --------------------------
-# PDFs & files
-# --------------------------
+# File & PDF handling
 PyPDF2
 pypdf
 reportlab
 
-# --------------------------
-# Streamlit
-# --------------------------
+# Streamlit for UI
 streamlit
 
-# --------------------------
-# Misc
-# --------------------------
+# Env management
 python-dotenv
+ipykernel
+
+# Misc
 cassio
-torch
-beautifulsoup4
+openai
+torch 
+# torchvision 
+# torchaudio
+# accelerate 
+# safetensors
+langchain-groq 
+langchain 
+langchain-community 
+langchain-text-splitters 
+langchain-tavily 
+beautifulsoup4 
+requests 
+python-dotenv 
+faiss-cpu
