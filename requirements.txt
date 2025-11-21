@@ -1,27 +1,39 @@
-langchain
-langchain_community
-langchain_anthropic
-langchain_ollama
-langchain_groq
-langchain_huggingface
-langchain_pinecone
-langchain_tavily
-langchain==0.0.350
-langchain-core==0.1.0
+# --------------------------
+# LangChain (latest stable)
+# --------------------------
+langchain==0.2.11
+langchain-core==0.2.15
+langchain-community==0.2.10
+langchain-text-splitters==0.2.2
+
+# --------------------------
+# Integrations
+# --------------------------
+langchain-groq
+langchain-ollama
+langchain-anthropic
+langchain-huggingface
+langchain-pinecone
+langchain-tavily
+
+# --------------------------
+# LLM + Embeddings
+# --------------------------
 sentence-transformers
-# transformers>=4.27.0
-transformers==4.41.0
-# tokenizers==0.21.4
-diffusers>=0.34.0,<0.35.0
-datasets
+transformers==4.36.2     # <-- stable for Python 3.10, avoids tokenizers error
 tiktoken
 
-# Vector stores & databases
+# --------------------------
+# Vector stores
+# --------------------------
 pinecone-client
-chromadb>=1.0.9
+chromadb==0.4.24
 faiss-cpu
 
-# Search / web tools
+# --------------------------
+# Data tools
+# --------------------------
+datasets
 duckduckgo-search
 ddgs
 tavily-python
@@ -30,32 +42,22 @@ requests
 jq
 tqdm
 
-# File & PDF handling
+# --------------------------
+# PDFs & files
+# --------------------------
 PyPDF2
 pypdf
 reportlab
 
-# Streamlit for UI
+# --------------------------
+# Streamlit
+# --------------------------
 streamlit
 
-# Env management
-python-dotenv
-ipykernel
-
+# --------------------------
 # Misc
+# --------------------------
+python-dotenv
 cassio
-openai
-torch 
-# torchvision 
-# torchaudio
-# accelerate 
-# safetensors
-langchain-groq 
-langchain 
-langchain-community 
-langchain-text-splitters 
-langchain-tavily 
-beautifulsoup4 
-requests 
-python-dotenv 
-faiss-cpu
+torch
+beautifulsoup4
