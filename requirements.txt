@@ -1,41 +1,3 @@
-# langchain
-# langchain_community
-# python-dotenv
-# ipykernel
-# langchain_anthropic
-# langchain_ollama
-# langchain_groq
-# ddgs
-# pypdf
-# sentence-transformers
-# langchain_huggingface
-# bs4
-# tqdm
-# requests
-# pinecone
-# langchain_pinecone
-# pinecone-client
-# chromadb
-# duckduckgo-search
-# langchain-tavily
-# langchain_tavily
-# jq
-# faiss-cpu
-# tavily-python
-# streamlit
-# tokenizers==0.21.4
-# transformers>=4.27.0,<5.0.0
-# diffusers>=0.34.0,<0.35.0
-# chromadb>=1.0.9
-# reportlab
-# cassio
-# datasets
-# langchain
-# openai
-# tiktoken
-# PyPDF2
-
-# Core LangChain ecosystem
 langchain
 langchain_community
 langchain_anthropic
@@ -44,8 +6,8 @@ langchain_groq
 langchain_huggingface
 langchain_pinecone
 langchain_tavily
-
-# Supporting AI & NLP tools
+langchain==0.0.350
+langchain-core==0.1.0
 sentence-transformers
 # transformers>=4.27.0
 transformers==4.41.0
