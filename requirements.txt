@@ -1,26 +1,45 @@
---upgrade pip
-# Core LangChain
-langchain>=1.0.0,<2.0.0
-langchain_community>=0.0.38,<1.0.0
-langchain-text-splitters>=0.0.10
+# Core LangChain ecosystem
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-anthropic==0.3.0
+langchain-ollama==0.2.0
+langchain-groq==0.2.0
+langchain-huggingface==0.1.0
+langchain-pinecone==0.2.0
+langchain-tavily==0.1.0
+langchain-text-splitters==0.3.0
 
-# AI/NLP
+# Supporting AI & NLP
 sentence-transformers
 transformers==4.41.0
+diffusers>=0.34.0,<0.35.0
+datasets
 tiktoken
+torch
 
 # Vector stores
 pinecone-client
 chromadb>=1.0.9
 faiss-cpu
 
-# UI & PDF
-streamlit
+# Search / web tools
+duckduckgo-search
+ddgs
+tavily-python
+beautifulsoup4
+bs4
+requests
+jq
+tqdm
+
+# File & PDF
 PyPDF2
 pypdf
 reportlab
 
-# Others
+# Streamlit & env
+streamlit
 python-dotenv
-requests
-bs4
+ipykernel
+cassio
+openai
