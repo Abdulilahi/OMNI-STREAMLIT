@@ -2,19 +2,11 @@
 # Core LangChain
 langchain>=1.0.0,<2.0.0
 langchain_community>=0.0.38,<1.0.0
-langchain-anthropic>=1.0.0,<2.0.0
-langchain-ollama
-langchain-groq
-langchain-huggingface
-langchain-pinecone
-langchain-tavily
 langchain-text-splitters>=0.0.10
 
-# AI & NLP tools
+# AI/NLP
 sentence-transformers
 transformers==4.41.0
-diffusers>=0.34.0,<0.35.0
-datasets
 tiktoken
 
 # Vector stores
@@ -22,28 +14,13 @@ pinecone-client
 chromadb>=1.0.9
 faiss-cpu
 
-# Search / web
-duckduckgo-search
-ddgs
-tavily-python
-bs4
-requests
-jq
-tqdm
-
-# File / PDF
+# UI & PDF
+streamlit
 PyPDF2
 pypdf
 reportlab
 
-# UI
-streamlit
-
-# Env
+# Others
 python-dotenv
-ipykernel
-
-# Misc
-cassio
-openai
-torch
+requests
+bs4
